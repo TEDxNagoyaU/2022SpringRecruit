@@ -74,12 +74,12 @@ fieldset {
 }
 
 body {
-  font-family: "Hannari";
+  font-family: "Helvetica Neue", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-weight: 300;
   -webkit-text-size-adjust: 100%;
   overflow-x: hidden;
-  color: #000;
-  background: #fff;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
 }
 
 a {
@@ -226,7 +226,7 @@ section h2 span {
   /* background: #f6f6f6; */
 }
 
-#sec04_02 {
+/* #sec04_02 {
   background: url(../images/bgSec04.jpg) no-repeat 100% 100% fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -236,11 +236,32 @@ section h2 span {
 
 #sec04_02 img {
   width: auto;
-}
+} */
 
 /* SEC05 COMPANY
 ------------------------------------------------------------*/
-#sec05 p {
+#sec05 img {
+  text-align: center;
+}
+
+.date {
+  font-size: 22px;
+}
+
+.shadow {
+  width: 250px;
+  height: 70px;
+  font-size: 22px;
+  color: #ffffff;
+  /* display: block; */
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px 0 10px;
+  background: #e7760c;
+  border-radius: 5px;
+  box-shadow: 1px 1px #fcfbfb;
+}
+
+#sec07 p {
   margin-bottom: 5px;
 }
 
